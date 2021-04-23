@@ -25,7 +25,7 @@ export const DragCards = () => {
     }
 
 
-    const dropHandler = (event: any, card: CardsType) => {
+    const dropHandler = (event:  any, card: CardsType) => {
         event.preventDefault()
         setCardsList(cardsList.map((c) => {
             if (c.id === card.id) {

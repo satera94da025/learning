@@ -1,17 +1,18 @@
 import React from 'react';
 
 import './App.css';
-import ControlledInput from "./input";
-import {DragCards} from "./dragAndDrop/card";
+import {AdvanceDragAndDrop} from "./dragAndDrop/AdvanceDragAndDrop";
+
 
 function App() {
-  return (
-    <div className="App">
-     {/*<ControlledInput/>*/}
-      <DragCards/>
+    return (
+        <div className="App">
+            {/*<ControlledInput/>*/}
+            {/* <DragCards/>*/}
+            <AdvanceDragAndDrop/>
 
-    </div>
-  );
+        </div>
+    );
 }
 
 export default App;
